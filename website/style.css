@@ -1,0 +1,418 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    height: 500vw;
+
+   
+
+}
+
+.mainbody{
+    background-image: linear-gradient(to right top, #ffffff, #f7f2fb, #f3e5f3, #f3d7e8, #f4c8d8, #fbc5ce, #fec4c2, #ffc4b5, #ffd1b1, #ffdfaf, #ffefb3, #f4ffbd);
+}
+.secondBody{
+    background-color: white;
+}
+header{
+    width: 100%;
+    
+    position: absolute;
+    position: fixed;
+   
+    z-index: 1;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    top: 0;
+}
+
+.headerInicial{
+    background-color: transparent;
+    animation: hInicial 0.5s forwards;
+    
+}
+
+.headerFinal{
+    
+    
+   animation: hFinal 0.5s forwards;
+
+}
+
+.headerFinal li{
+ animation: list 1s forwards;
+ transition:  0.3s linear;
+ line-height: 15px;
+ font-size: 1.0em;
+}
+
+
+
+@keyframes hFinal{
+    from{
+height: 200px;
+font-size: 1.2em;
+
+background-color: transparent;
+    }to{
+        height: 100px;
+        background: rgb(165,245,208);
+        background: linear-gradient(90deg, 
+            rgba(165, 245, 208, 1) 0%, 
+            rgba(185, 235, 205, 25%) 25%, 
+            rgba(205, 225, 202, 50%) 50%, 
+            rgba(225, 215, 199, 75%) 75%, 
+            rgba(255, 220, 170, 1) 100%);
+            font-size: 1.0em;
+        box-shadow: 2px 5px 10px rgba(56, 56, 56, 0.863);
+    }
+}
+
+@keyframes hInicial{
+from{ height: 100px;
+    
+    background: rgb(165,245,208);
+    background: linear-gradient(90deg, 
+        rgba(165, 245, 208, 1) 0%, 
+        rgba(185, 235, 205, 25%) 25%, 
+        rgba(205, 225, 202, 50%) 50%, 
+        rgba(225, 215, 199, 75%) 75%, 
+        rgba(255, 220, 170, 1) 100%);
+ 
+    box-shadow: 2px 5px 10px rgba(56, 56, 56, 0.863);
+
+}to{
+    height: 200px;
+    font-size: 1.2em;
+
+background-color: transparent;
+box-shadow: none;
+}
+}
+ul{
+    display: flex;
+    cursor: pointer;
+}
+.ulFormatation{
+    
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    left: 70%;
+    
+}
+.liFormatation{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px;
+    text-shadow: black 2px 3px 3px;
+    margin: 25px;
+    background-color: transparent;
+    color: transparent;
+    box-shadow: 2px 10px 6px rgba(75, 75, 75, 0.856);
+}
+
+.liFormatation:hover{
+    text-shadow: none;
+    color: black;
+    border: rgba(0, 0, 0, 0.397) 1px solid;
+    transform: scale(1.2);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.with-submenu:hover .submenu {
+    display:flex;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 15%;
+   flex-direction: column;
+   align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 140px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    
+   
+  }
+
+
+  
+  .submenu-item{
+    margin-bottom: 10px;
+    list-style: none;
+    padding-top:20px ;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+
+
+   
+   
+  }
+  
+  .submenu li:last-child {
+    border-bottom: none;
+  }
+.pStatic{
+    position: relative;
+    
+}
+
+nav a{ color: inherit;
+text-decoration: none;}
+
+
+.fonte{
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.changeBlack:hover{
+color: black;
+}
+.changeWhite:hover{
+    color: white;
+}
+.white{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px 2px rgba(65, 65, 65, 0.726);
+}
+
+#sobre{
+    margin-top: 200px;
+    text-align: center;
+    height: 270vw;
+}
+
+h1{
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    animation: floatAnimation 6s infinite ease-in-out;
+}
+
+.texto{
+    font-size: 1.2em;
+    text-align: justify;
+    width:80%;  
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-weight: 200;
+text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.13);
+margin: 0 auto;
+padding-top:15px;
+}
+
+.vinte{
+    margin-left: 10%;
+}
+
+.cinquenta{
+    margin-left: 35%;
+}
+
+.sessenta{
+    margin-left: 78%;
+}
+
+.texto:hover{
+    transform: scale(1.1);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: black;
+    font-weight: 200;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 25%;
+    padding: 0px;
+    height: 270px;
+    opacity: 0%;
+    border-radius: 10%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition:  all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); ;
+}
+
+#logo{
+    width: 50%;
+    margin: auto;
+   
+    height: 500px;
+}
+
+#curved-line{
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    z-index: 0;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    
+}
+
+#curved-line::after{
+    content: '';
+    border-top: white solid 3px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 10px;
+    border-radius: 50%;
+    z-index: 0;
+    animation: lineRotate 2s infinite;
+}
+
+#curved-line::after{
+    content: '';
+    border-bottom: rgb(0, 0, 0) solid 3px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 10px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+
+
+    .curved-text{
+        shape-outside: circle(50% at 50% 50%);
+        width: 200px;
+        margin: 20px;
+        z-index: 2;
+     
+    }
+svg{
+    position: relative;
+    z-index: 2;
+    left: 0;
+}
+.logo-text{
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 2;
+}
+
+#circle{
+    background-color: rgb(43, 43, 43);
+   
+    position: absolute;
+    z-index: -1;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+   left: 7%;
+   top: 5%;
+  
+  
+}
+
+@keyframes lineRotate {
+    0%{
+        transform: rotate(0deg);
+    }100%{transform: rotate(360deg);}
+}
+.text-circle{
+    letter-spacing: 5px;
+    font-size:8em;
+    position: relative;
+    width: 100%;
+   
+    top: -15px;
+    right: -5px;
+
+ 
+}
+.gradient-text {
+    background-image: linear-gradient(to right top, #ffffff, #f7f2fb, #f3e5f3, #f3d7e8, #f4c8d8, #fbc5ce, #fec4c2, #ffc4b5, #ffd1b1, #ffdfaf, #ffefb3, #f4ffbd); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+
+.moveCards{
+    
+    animation: cardsAnimation 2s forwards ease-out;
+}
+.moveCardsB{
+    
+    animation: cardsAnimationB 2s forwards ease-out;
+}
+
+@keyframes cardsAnimation{
+    0%{
+        transform: translateX(0px);
+        opacity: 0%;
+    } 100%{
+       transform: translateX(20%);
+       opacity: 100%;
+    }
+}
+
+@keyframes cardsAnimationB{
+    0%{
+        transform: translateX(0px);
+        opacity: 0%;
+    } 100%{
+       transform: translateX(-40%);
+       opacity: 100%;
+    }
+}
+
+#video{
+    height: 800px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#Loja{
+    width: 100%;
+    background-color: white;
+    height: 100vw;
+    margin-top: 150px;
+}
+
+.lojaDisplay {
+    display: grid; 
+    grid-template-columns: 0.5fr 1.5fr; 
+    grid-template-rows: 1fr 1.1fr 0.9fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "left right"
+    "left right"
+    "left right"; 
+  }
+
+#listas{
+    grid-area: left;
+    background-color: yellow;
+    text-align: center;
+    
+
+}
+#produtos{
+    grid-area: right;
+    background-color: brown;
+}
+
+.ulTwo{
+    flex-direction: column;
+
+}
+.liTwo{
+    list-style: none;
+    display: inline-block;
+}
