@@ -396,23 +396,41 @@ svg{
     "left right"; 
   }
 
-#listas{
+aside{
     grid-area: left;
     background-color: yellow;
     text-align: center;
-    
-
+    flex-direction: column;
 }
 #produtos{
     grid-area: right;
     background-color: brown;
+   
 }
 
-.ulTwo{
-    flex-direction: column;
-
+.form-control{
+    width: 100px;
+    padding: 10px 8px;
+    margin: 15px;
+ 
 }
-.liTwo{
-    list-style: none;
-    display: inline-block;
+#searchInput{
+ display: flex;
+ flex-direction: column;
+ margin: 0;
+ align-items: center;
+}
+
+.product-image{
+width: 200px;
+}
+
+.produto{
+    width: 250px;
+    height: 250px;
+    border: 2px black double;
+}
+
+#produtosMain{
+    display: flex;
 }

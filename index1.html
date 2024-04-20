@@ -18,18 +18,20 @@
         <li class="list liFormatation"><a href="#">Contatos</a></li>
     </ul>
 </nav>
-    </header>
+    </header id="lojaHeader">
 
     <section id="Loja" class="lojaDisplay fonte">
-        <article id="listas">
-            <h3>Filtrar produtos</h3>
-            <ul class="ulTwo">
-                <li class="liTwo">Plataformas</li>
-                <li class="liTwo">Lâmpadas</li>
-            </ul>
-
-        </article>
-        <article id="produtos"></article>
+        <aside>
+            <h3>Nossos produtos</h3>
+            <div id="searchInput">
+                <button   class="form-control btnC" data-categoria="plataformas">Plataforma</button></input>
+                <button   class="form-control btnC"data-categoria="lampadas">Lâmpadas / Leds</button></input>
+                <button   class="form-control btnC"data-categoria="tunel" >Túnel infinito</button></input>
+                <button   class="form-control btnC" data-categoria="outros">Outros/button></input>
+            </div>
+           
+        </aside>
+        <main id="produtosMain"></main>
     </section>
     <script src="script.js"></script>
 </body>
